@@ -3,7 +3,7 @@ package gitignore_test
 import (
 	"testing"
 
-	"github.com/denormal/go-gitignore"
+	"github.com/joint-online-judge/go-gitignore"
 )
 
 func TestCache(t *testing.T) {
@@ -38,10 +38,10 @@ func TestCache(t *testing.T) {
 
 	// ensure we can update the cache
 	_ignore := null()
-	for _k, _ := range _CACHETEST {
+	for _k := range _CACHETEST {
 		_cache.Set(_k, _ignore)
 	}
-	for _k, _ := range _CACHETEST {
+	for _k := range _CACHETEST {
 		_found := _cache.Get(_k)
 		if _found != _ignore {
 			t.Errorf("cache Get() mismatch; expected %v, got %v",

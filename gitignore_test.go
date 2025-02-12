@@ -1,12 +1,11 @@
 package gitignore_test
 
 import (
-	"testing"
-
 	"os"
 	"path/filepath"
+	"testing"
 
-	"github.com/denormal/go-gitignore"
+	"github.com/joint-online-judge/go-gitignore"
 )
 
 type gitignoretest struct {

@@ -1,8 +1,9 @@
 package gitignore_test
 
 import (
-	"github.com/denormal/go-gitignore"
 	"testing"
+
+	"github.com/joint-online-judge/go-gitignore"
 )
 
 func TestPosition(t *testing.T) {

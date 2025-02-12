@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/denormal/go-gitignore"
+	"github.com/joint-online-judge/go-gitignore"
 )
 
 func file(content string) (*os.File, error) {

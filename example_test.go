@@ -3,7 +3,7 @@ package gitignore_test
 import (
 	"fmt"
 
-	"github.com/denormal/go-gitignore"
+	"github.com/joint-online-judge/go-gitignore"
 )
 
 func ExampleNewFromFile() {

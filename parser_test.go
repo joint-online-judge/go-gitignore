@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/denormal/go-gitignore"
+	"github.com/joint-online-judge/go-gitignore"
 )
 
 type parsetest struct {
